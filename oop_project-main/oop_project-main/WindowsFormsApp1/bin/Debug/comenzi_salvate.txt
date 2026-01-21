@@ -1,0 +1,10 @@
+SuperBox
+Turceni ,Turceni
+Timisoara ,Timisoara
+Asteptare
+Conturi
+Admin ,  Cosmin , Email , Cosmin , True
+Utilizator , Denisa , Email2 , Denisa , IDUtilizator
+Comenzi
+Id,Turceni,Timisoara,Cosmin,Denisa,True,False
+Id2,Timisoara,Turceni,Denisa,Cosmin,True,False
