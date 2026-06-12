@@ -1,0 +1,48 @@
+# =============================================================================
+# Smart Home Monitor – Root .gitignore
+# Covers backend/, frontend/, firmware/, and the project root.
+# =============================================================================
+
+
+# ── SECRETS – never commit these ─────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+
+# ── Node / npm ────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+
+# ── Frontend build output ─────────────────────────────────────────────────────
+frontend/dist/
+frontend/.vite/
+
+
+# ── Firebase Hosting leftovers ────────────────────────────────────────────────
+.firebase/
+.firebaserc
+firebase.json
+
+
+# ── Arduino IDE build output ──────────────────────────────────────────────────
+firmware/**/.cache/
+firmware/**/build/
+
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ── Editor folders ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
